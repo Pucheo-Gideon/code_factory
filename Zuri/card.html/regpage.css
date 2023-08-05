@@ -1,0 +1,103 @@
+/* body styling */
+body{
+    margin: 0;
+    padding:0;
+    background-image: url('./bg-intro-desktop.png');
+    background-color: red;
+    opacity: 2;
+  
+}
+
+*{
+      /* border: #ffffff solid 2px; */
+}
+
+/* container styling */
+main{
+    margin: 5% 10% 5% 15%;
+    width: 70%;
+    font-family: Trebuchet Ms, Arial, Helvetica, sans-serif;
+    /* background-color: #ccc; */
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 20px;
+}
+
+/* leftside content styling */
+.flex1{
+    width: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto;
+    padding-right: 25px;
+}
+/* leftside heading styling */
+.flex1>h3{
+  font-size: 40px;
+}
+
+/* form container styling */
+form{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+}
+
+/* form and header container styling */
+#flex2{
+    display: flex;
+}
+
+/* header ontop of header styling */
+.flex2 .try{
+   
+    background-color: rgb(35, 2, 156);
+    box-shadow: 0px 3px 2px 3px rgb(0, 0, 0, 0.2);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* labels styling: off */
+label{
+    display: block;
+    visibility: hidden;
+}
+
+/* form input styling */
+input[type='text'], input[type='password'], input[type='email']{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin: 10px; */
+     margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* submit button style */
+button{
+    width: 95%;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(117, 192, 3);
+    border: none;
+    border-radius: 5px;
+    color:#ffffff;
+    font-weight: bolder;
+}
+
+span{
+    color: red;
+}
+
+.flex2 #bottom{
+    margin-left: 25px;
+    margin-right: 15px;   
+    margin-bottom: 20px;   
+}

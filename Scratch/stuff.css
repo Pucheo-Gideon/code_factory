@@ -1,0 +1,24 @@
+/* div p{
+    color: #08147c;
+}
+
+div>p{
+    color: rgb(123, 243, 109);
+}
+div+p{
+    text-decoration: underline;
+} */
+:root {
+ --background: rgb(74, 248, 225);
+  --color: #fff;
+  --padding-large: 30px;
+  --margin-small: 10px;
+  --font-size: 20px;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  font-size: var(--font-size);
+}
+

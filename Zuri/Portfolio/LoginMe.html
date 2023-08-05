@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="LoginMe.css" />
+  </head>
+  <body>
+    <div class="log">
+      <form action="#" id="forms">
+        <h1>Login</h1>
+
+        <div class="box">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="E.g doskina@gmail.com"
+            required
+          />
+        </div>
+
+        <div class="box">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Eight(8) or more characters"
+            placeholder="Your password must have special characters"
+            placeholder="Your password must have an uppercase"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            required/>
+        </div>
+        
+        <div>
+        <input type="submit" name="submit" id="submit"/>
+        </div>
+
+        <h4 id="prompt">
+          Yet to sign up?
+          <span id=><a href="RegisterMe.Html">Create Account</a> </span>
+        </h4>
+
+      </form>
+    </div>
+  </body>
+</html>

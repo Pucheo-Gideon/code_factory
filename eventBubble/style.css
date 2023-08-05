@@ -1,0 +1,30 @@
+
+*{
+    margin: auto;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+body{
+    padding: 20px;
+    background-color: pink;
+}
+div{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+span{
+    display: block;
+    background-color: greenyellow;
+    padding: 30px;
+    margin-top: 10px;
+    /* margin: 10px; */
+    width: 100px;
+    height: 100px;
+}
+/* button{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+} */

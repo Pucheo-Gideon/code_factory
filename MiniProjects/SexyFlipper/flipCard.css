@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size:medium;
+}
+
+.card-body{
+    width: 300px;
+    height:fit-content;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: #ccc solid 2px;
+}
+
+img{
+   /* display: flex; */
+   margin-left: 80px;
+   margin-right: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: #ccc solid 2px;
+}
+
+#name{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#job{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article{
+    /* display: flex;
+    justify-content: center; */
+    text-align: justify;
+    /* text */
+    /* padding-left: 30px; */
+    /* padding-right: 10px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#btn-left{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid #18E6EA;
+}
+#btn-right{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid #18E6EA;
+    /* border: none; */
+}
+#randomBtn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #18E6EA;
+}

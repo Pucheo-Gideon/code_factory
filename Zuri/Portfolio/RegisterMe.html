@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="RegisterMe.css">
+  </head>
+  <body>
+   
+      <form action="" id="reg">
+        <header><h1 id="head">Register</h1>
+        <div>
+          <label for="Fname">First Name:</label>
+          <input type="text" id="Fname" required />
+        </div>
+      
+        <div>
+          <label for="Lname">Last Name:</label>
+          <input type="text" id="Lname" name="Last Name" required />
+        </div>
+     
+       
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="e.g doskina@gmail.com"
+          />
+        </div>
+       
+        <div>
+          <label for="phone">Phone:</label>
+          <input
+            type="tel"
+            id="phone"
+            required
+            placeholder="Enter your Phone Number"
+          />
+        </div>
+        
+        <div>
+          <label for="gender">Gender:</label>
+          <select name="gender" id="gender">
+            Gender:
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Others">Others</option>
+          </select>
+        </div>
+       
+        <div>
+          <label for="country">Country:</label>
+          <input
+            type="text"
+            id="country"
+            required
+            placeholder="Enter your Country name" required
+          />
+        </div>
+      
+        <div>
+          <label for="state">State:</label>
+          <input
+            type="text"
+            id="state"
+            required
+            placeholder="Enter your State name"
+            required
+          />
+        </div>
+      
+        <div>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="state"
+            required
+            placeholder="Your Password must be strong and atleast 8 characters long"
+            required
+            pattern=""
+          />
+        </div>
+       
+        <div>
+          <label for="password">Confirm Password:</label>
+          <input
+            type="password"
+            id="state"
+            required
+            placeholder="Your Password must be strong and atleast 8 characters long"
+            required
+            pattern=""
+          />
+        </div>
+       
+        <input type="submit" value="submit" id="submit">
+      </form>
+
+  </body>
+</html>

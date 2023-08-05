@@ -1,0 +1,51 @@
+body{
+    background-image: url("./grocery_store.jpeg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    
+}
+.container{
+    max-width: 400px;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 10px 10px 30px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+#count-el{
+    font-size: 50px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+#incrementBtn{
+    background-color: seagreen;
+}
+
+#saveBtn{
+    background-color:orangered;
+}
+
+.btn-wrapper{
+    display: flex;
+    gap: 5px;
+}
+
+#decrementBtn{
+    background-color: #a8a6a6;
+    color: #000;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="getImage">
+        <img src="./Four.JPG" alt="My Photo" width="300" height="200" id="image">
+        <button onclick="myImage()" >Click here</button>
+    </div>
+
+    <script >
+        let image = ["One1.jpg", "Three.jpg", "Two.jpg", "EditedII.jpg"]
+        function myImage() {
+            document.getElementById("image").src = image[3]
+        }
+    </script> -->
+
+    <!-- <div>
+        <img src="./EditedII.jpg" height="200" width="300" id="image" alt="flyer">
+        <button onclick="displayImages()">Click to See More</button>
+    </div>
+    <script>
+        let imageArray = ["One1.jpg", "Three.jpg", "./Four.JPG", "Two.jpg", "EditedII.jpg"]
+        function displayImages() {
+            document.getElementById('image').src = imageArray[0<3]
+        }
+    </script> -->
+
+    <!-- <div class="class">
+         <img src="./EditedII.jpg" height="200" width="300" id="picture" alt="flyer">
+         <button onclick="getMoreImage()">Click to see more</button>
+    </div>
+
+    <script>
+        let image = ["One1.jpg", "Three.jpg", "./Four.JPG", "Two.jpg", "EditedII.jpg"]
+        function getMoreImage() {
+            document.getElementById('picture').src = image[0] -->
+        <!-- }
+    </script> -->
+    <style type="text/css">
+        body{
+            background: #dcdcdc;
+        }
+        .slide{
+            width: 600px;
+            height: 400px;
+            position: relative;
+            left: 360px;
+            top: 100px;
+        }
+        .visible{
+            display: block;
+        }
+        .hidden{
+            display: none;
+        }
+        img{
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+    <div class="slide-c">
+        <img src="Four.JPG" id="img1" class="visible" alt="image">
+        <img src="./1.jpg" id="img2" class="hidden" alt="image">
+        <img src="./2.jpg" id="img3" class="hidden" alt="image">
+        <img src="./3.jpg" id="img4" class="hidden" alt="image">
+        <img src="./4.jpg" id="img5" class="hidden" alt="image">
+    </div>
+
+    <script >
+        var activeImageId =1;
+        var nextImageId =1;
+
+        setInterval(function(){
+            nextImageId = nextImageId + 1;
+            if (nextImageId <5){
+
+                document.getElementById("img"+activeImageId).classList.replace('visible', 'hidden');
+               
+                document.getElementById("img"+nextImageId).classList.replace('hidden', 'visible');
+                
+                activeImageId = nextImageId;
+            
+            }else{
+                document.getElementById("img"+activeImageId).classList.replace('visible', 'hidden');
+               
+                document.getElementById("img"+nextImageId).classList.replace('hidden', 'visible');
+                activeImageId = 5;
+                nextImageId =0;
+            }
+        },5000)
+    </script>
+</body>
+</html>

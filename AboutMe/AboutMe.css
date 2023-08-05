@@ -1,0 +1,114 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: auto;
+  /* background-color: rgb(0, 0, 0, 0.6); */
+  /* background-image: url(background.jpeg); */
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  height: 50vh;
+}
+
+nav {
+  width: 50%;
+  height: 50px;
+  overflow: hidden;
+  background-color: #000000;
+  margin: auto;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+ 
+}
+
+a::after{
+  border-bottom: #ffffff solid 1px ;
+}
+
+#flexx {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+#flexx li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#flexx a:hover {
+  border-bottom: rgb(5, 255, 38) solid 2px;
+}
+
+main {
+  width: 80%;
+  padding: 50px;
+  margin: 100px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.2), -2px -3px 6px rgb(0, 0, 0, 0.2);
+}
+
+/* This box holds both myimage and AboutMe content */
+#content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* image setting */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* This is the box where my image is */
+#mycard {
+  width: 30%;
+  height: 50%;
+  /* border: 1px #cccccc solid; */
+  box-shadow: 4px 4px 6px rgb(0, 0, 0, 0.2), -2px -4px 6px rgb(0, 0, 0, 0.2);
+  margin: 20px;
+  text-align: center;
+}
+/* This is the box that has "About me" */
+#details {
+  width: 50%;
+  border: 1px #cccccc solid;
+  padding: 40px;
+  background-color: #ffffff;
+  color:#000000 ;
+  font-size: 12px;
+}
+/* .underline{
+ color: rgb(7, 185, 31);
+} */
+/* contact me button */
+#contactme{
+   position: relative;
+   /* left:5%; */
+   top: 0px;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    color: #ffffff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#contactme:hover{
+   
+background: #000000;
+}
+
+footer{
+  /* border: #000000 solid 2px; */
+  /* margin-bottom: 10px; */
+  text-align: center;
+  color: #ffffff;
+}

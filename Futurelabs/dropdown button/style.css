@@ -1,0 +1,72 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    background-color: rgb(162, 0, 255);
+}
+
+
+.loginpage{
+    background-color: white;
+    
+    
+}
+
+.login{
+    margin-top: 5%;
+}
+/*
+.box{
+    background-color: white;
+    margin-top: 15%;
+    margin: 5%;
+    border-radius: 10px;
+    height: 80vh;
+}
+
+.log{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 9%;
+    height: 5vh;
+    border: none; 
+    background-color: rgb(222, 234, 247);
+}
+
+.mail{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+.ref{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.butt{
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 10px;
+    height: 5vh;
+    margin-top: 10%;
+    border: none;
+    background-color: rgb(162, 0, 255);
+    color: white;
+}
+
+.account{
+margin-top: 5%;
+margin-left: 10%;
+} */

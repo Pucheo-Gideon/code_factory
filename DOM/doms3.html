@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id ="elem">
+        <div id="elem-content">Element</div>
+    </div>
+
+    <ul>
+        <li>The</li>
+        <li>test</li>
+    </ul>
+    <ul>
+        <li>has</li>
+        <li>Passed</li>
+    </ul>
+    <a href="http://example.com/file.zip">...</a>
+    <a href="http://ya.ru">...</a> -->
+
+    <!-- <table id="table">
+        <tr>
+            <td>Your age:</td>
+        </tr>
+        <label>
+            <input type="radio" name ="age" value ="young" checked> less than 18
+        </label>
+        <label>
+            <input type="radio" name="age" value="mature">from 18 to 50
+        </label>
+        <label>
+            <input type="radio" name="age" value="senior">more than 60
+        </label>
+    </table> -->
+
+    <!-- <form action="" name="my-form">
+        <div class="artitcle">Artitcle</div>
+        <div class="long article">Long article</div>
+    </form> -->
+    <div>First div</div>
+    <script>
+        let divs = document.querySelectorAll('div')
+        alerts(divs.length); 
+        
+        // FIND BY NAME ATTRIBUTE 
+        // let form = document.getElementsByName('my-form')[0];
+
+        // FIND BY CLASS INSIDE THE FORM 
+        // let article = form.getElementsByClassName('article');
+        // console.log(article.length);
+        // let inputs = table.getElementsByTagName('input');
+        // for (letninput of inputs){
+        //     console.log(input.value + ':' + input.checked)
+        // }
+    //     let elem = document.getElementById('elem');
+    //     elem.style.background = "red";
+    //     let elem2 = window['elem-content'];
+    //     elem2.style.background = 'blue';
+    //     elem2.style.width = "500px"
+
+    //     let elementLi = document.querySelectorAll('ul>li:last-child')
+    //     let selected = document.querySelector("ul>li:first-child");
+    //     selected.style.color = "blue";
+
+    //     for(let elemm of elementLi ){
+    //         alert(elemm.innerHTML);
+    //     }
+    // let linkss = document.getElementsByTagName('a')
+
+    // for (let available of linkss){
+    //     if(available.matches('a[href$="zip"]')){
+    //         alert("The archive reference: " + elem.href)
+    //     }
+    // }
+    </script>
+
+    <div>Second Div</div>
+    <script>
+        alert(divs.length);
+    </script>
+</body>
+</html>

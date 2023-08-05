@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuri Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="FName" name="First Name"> First Name:</label>
+        <input type="text" id="FName" />
+      </div>
+      <div>
+        <label for="LName">Last Name:</label>
+        <input type="text" name="Last Name" id="LName" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" />
+      </div>
+      <div>
+        <label for="phoneNo">Phone No:</label>
+        <input type="number" name="Phone No" id="phoneNo" />
+      </div>
+      <div>
+        <br />
+        <label for="cars">Choose a car:</label>
+        <select>
+          <option value="volvo">Volvo</option>
+          <option value="Fiat">Fiat</option>
+          <option value="Saab">Saab</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="vehicle" />
+        <label for="vehicle1">I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="vehicle2" />
+        <label for="vehicle2">I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="vehicle3" />
+        <label for="vehicle3">I have a boat</label><br />
+      </div>
+      <div>
+        <p>Whats your Favourite Language:</p>
+        <input type="radio" name="fav-language" id="radio" />
+        <label for="radio">Java Script</label><br />
+        <input type="radio" name="fav-language" id="radio" />
+        <label for="radio">PHP</label><br />
+        <input type="radio" name="fav-language" id="radio" />
+        <label for="radio">Laravel</label>
+      </div>
+      <div>
+        <label for="css">Upload your Document:</label>
+        <input type="file" name="date" id="time" />
+      </div>
+      <div>
+        <textarea name="comment" id="comment" cols="30" rows="10">
+Enter your text here:</textarea
+        >
+      </div>
+
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>

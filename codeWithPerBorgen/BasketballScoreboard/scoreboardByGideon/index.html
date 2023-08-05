@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="scoreboard-container">
+      <div class="scoreboard">
+
+        <div class="title-counter-wrapper">
+          <h1>HOME</h1>
+          <div class="home counterbtn-wrapper">
+            <div id="display">
+              <h1 id="homeWatch">0</h1>
+            </div>
+            <div class="homeIncrementers incrementBtn">
+              <button id="addOne" onclick="homeIncrementOne()">+1</button>
+              <button id="addTwo" onclick="homeIncrementTwo()">+2</button>
+              <button id="addThree" onclick="homeIncrementThree()">+3</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-counter-wrapper">
+          <h1>GUESS</h1>
+        <div class="guest counterbtn-wrapper">
+            <div id="display">
+              <h1 id="guessWatch">0</h1>
+            </div>
+            <div class="guessIncrementers incrementBtn">
+              <button id="addOne" onclick="guessIncrementOne()">+1</button>
+              <button id="addTwo" onclick="guessIncrementTwo()">+2</button>
+              <button id="addThree" onclick="guessIncrementThree()">+3</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

@@ -1,0 +1,41 @@
+<!-- <script src="cal.js"></script> -->
+<script>
+  // first make two vvariables for the data input
+  // let x, y, sign;
+  // sign = prompt("Enter the math symbol you want to perform")
+  // x = parseFloat(parseInt(prompt("Enter your first number")));
+  // y = parseFloat(parseInt(prompt("Enter your second number")));
+
+  // let sum = x+y;
+  // let difference = x-y;
+  // let product = x*y;
+  // let quotient = x/y;
+
+  // alert("The sum of the given number is:" +sum)
+  // alert(`The sum of the two given number is ${sum}`)
+  // alert(`The difference of the two given number is ${difference}`)
+  // alert(`The product of the two given number is ${product}`)
+  // alert(`The quotient of the two given number is ${quotient}`)
+
+  var x, y;
+  var sign = prompt("Enter the math symbol you want to perfrom");
+  x = prompt("Enter your first number");
+  y = prompt("Enter your second number?");
+
+  var sum = Number(x) + Number(y);
+  var difference = Number(x) - Number(y);
+  var product = Number(x) * Number(y);
+  var division = Number(x) / Number(y);
+
+  if (sign == "+") {
+    alert("Your answer is " + sum + "");
+  } else if (sign == "-") {
+    alert("Your answer is " + difference + "");
+  } else if (sign == "*") {
+    alert("Your answer is " + product + "");
+  } else if (sign == "/") {
+    alert("Your answer is " + division + "");
+  } else {
+    alert("Sorry, you cannot perform that calculation");
+  }
+</script>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calApp.css" />
+      </head>
+      <body>
+      
+          <main class="bigContainer">
+                <!-- <p id="numberLeft">1 2 3</p> -->
+                <section class="calcTheme">
+                  <h5>calc</h5>
+                      <section class="themeButton">
+                        <h6>THEME</h6>
+                        <div class="toggle-box">
+                        <input class="toggle-btn" type="radio" name="toggle" id="one" />
+                        <input class="toggle-btn" type="radio" name="toggle" id="two" />
+                        <input class="toggle-btn" type="radio" name="toggle" id="three" />
+                        </div>
+                      </section>
+                </section>
+            
+        
+              <section class="digitContainer">
+            
+                <input type="text" placeholder="0" id="screen">
+
+                <div id="digitRow1" class="rows"> 
+                  <button onclick="handleClick('7')" class="items" id="items1">7</button>
+                  <button onclick="handleClick('8')" class="items" id="items2">8</button>
+                  <button onclick="handleClick('9')" class="items" id="items3">9</button>
+                  <button onclick="del()" class="items" id="items4">DEL</button>
+                </div>
+
+                <div id="digitRow2" class="rows">
+                  <button onclick="handleClick('4')" class="items" id="items5">4</button>
+                  <button onclick="handleClick('5')"  class="items" id="items6">5</button>
+                  <button onclick="handleClick('6')"  class="items" id="items7">6</button>
+                  <button onclick="handleClick('+')"  class="items" id="items8">+</button>
+                </div>
+
+                <div id="digitRow3" class="rows">
+                  <button onclick="handleClick('1')"  class="items" id="items9">1</button>
+                  <button onclick="handleClick('2')"  class="items" id="items10">2</button>
+                  <button onclick="handleClick('3')"  class="items" id="items11">3</button>
+                  <button onclick="handleClick('-')"  class="items" id="items12">-</button>
+                </div>
+
+                <div id="digitRow4" class="rows">
+                  <button onclick="handleClick('.')"  class="items" id="items13">.</button>
+                  <button onclick="handleClick('0')"  class="items" id="items14">0</button>
+                  <button onclick="handleClick('/')"  class="items" id="items15">/</button>
+                  <button onclick="handleClick('*')"  class="items" id="items16">x</button>
+                </div>
+
+                <div id="digitRow5" class="rows">
+                  <button onclick="reset()"  class="items" id="items17">RESET</button>
+                  <button onclick="equalTo()"  class="items" id="items18">=</button>
+                </div>
+
+              </section>
+          </main>
+          <script src="./calApp.js"></script>
+      </body>
+    </html>
+  </body>
+</html>

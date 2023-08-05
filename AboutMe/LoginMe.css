@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/* forms */
+#forms {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50% -50%);
+  width: 500px;
+  max-height: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+/* input, labels margins from the box */
+input,
+label {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin-top: 0px;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: #cccccc solid 1px;
+  padding: 0 0 20px 0;
+}
+
+input[type="password"],
+input[type="email"] {
+
+  margin-top: 20px;
+  outline: none;
+  width: 400px;
+  border: none;
+  border-bottom: #393939 solid 1px;
+}
+
+#submit {
+  position: relative;
+  /* top: 100px; */
+  left: 150px;
+  right: 150px;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  /* bottom:20px; */
+  border: none;
+  background: #000000;
+  color: #ffffff;
+  /* padding: 10px; */
+}
+#submit:hover {
+   background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+#submit {
+  position: relative;
+  top: 10px;
+  left: 150px;
+  right: 150px;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  /* bottom:20px; */
+  border: none;
+  background: #000000;
+  color: #ffffff;
+  /* padding: 10px; */
+}
+
+#prompt {
+  padding-left: 150px;
+  font-size: 15px;
+}

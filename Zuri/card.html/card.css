@@ -1,0 +1,85 @@
+body{
+    margin: 0%;
+    background-color: rgb(238, 236, 236);
+    font-family: trebuchet MS, Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    margin: 5% 20% 5% 20%;
+    width: 60%;
+    /* background-color: #cccccc; */
+    /* border: #cccccc solid 1px; */
+}
+
+.card{
+    width: 50%;
+    max-height: 50%;
+    border-radius: 7px;
+    background-color: #ccc;
+    padding: 30px;
+}
+
+#card1{
+    padding-top: 60px;
+    background-color: #ffa500;
+    color: #ffffff;
+}
+
+#card2{
+    padding-top: 60px;
+    background-color: #008080;
+    color: #ffffff;
+}
+
+#card3{
+    padding-top: 60px;
+    background-color: #2f4f4f;
+    color: #ffffff;
+}
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border:none;
+}
+button>a{
+   text-decoration: none;
+}
+
+#but1>a{
+  color: #ffa500;
+}
+
+#but2>a{
+  color: #008080;
+}
+#but3>a{
+  color:  #2f4f4f;
+}
+/* header style */
+#gridheader{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    width: 250px;
+    /* margin: auto; */
+    height: 35px;
+    /* border-radius: 15px; */
+    border:none;
+    text-align: center;
+    background-color: rgb(1, 0, 26);
+    color: #ffffff;
+    font-weight: bold;
+}
+#gridheader>a{
+   text-decoration: none;
+   color: #ffffff;
+   
+}
+#gridheader:hover{
+  background-color: #2f4f4f;
+  color: #ffffff;
+   
+}
+

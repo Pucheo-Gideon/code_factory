@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+}
+
+form{
+    width: 50%;
+    height: 300px;
+    border-radius: 5px;
+    border: solid #cccc 2px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    width: 80%;
+    height: 30px;
+
+}
+
+label{
+    width: 80%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    /* width: 100%; */
+    align-items: center;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    margin-top: 20px ;
+    margin-left: 200px ;
+    border-radius: 10px;
+}
+
+@media (max-width:1000px) {
+    button{
+    /* width: 30%;
+    height: 30px;
+    margin-top: 20px ; */
+    margin-left: 100px}
+}
+
+@media (max-width:500px) {
+    button{
+        margin-left: 70px;
+}
+}

@@ -1,0 +1,87 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.scoreboard-container{
+    max-width: 500px; 
+    background-color: rgb(4, 4, 211);
+    margin: 250px auto;
+    padding: 10px 5px;
+}
+
+.scoreboard{
+    border: white 2px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.title-counter-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    /* border: red 2px solid; */
+    margin: 10px;
+}
+
+.incrementBtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#homeWatch, #guessWatch{
+     color: yellow;
+}
+
+
+#display{
+    background: #000;
+    width: 200px;
+    height: 120px;
+    font-size: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 5px;
+    
+}
+
+
+button{
+    background: none;
+    border: #ccc 4px solid;
+    color: #fff;
+    width: 55px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px){
+    .scoreboard{
+    border: white 2px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.scoreboard-container{
+    width: 100%; 
+    background-color: rgb(5, 5, 90);
+    margin: 250px auto;
+    padding: 10px 5px;
+  
+}
+}
+
+.title-counter-wrapper{
+    border: white 2px solid
+}

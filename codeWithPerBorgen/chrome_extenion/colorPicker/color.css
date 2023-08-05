@@ -1,0 +1,19 @@
+
+#color_toggle_wrapper{
+    margin:  250px auto;
+    border: 2px red solid;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle_btn{
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+}

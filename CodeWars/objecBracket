@@ -1,0 +1,36 @@
+//Example I
+let members = {
+    mouth: true,
+    ear: true,
+    tail: false,
+}
+
+let props  = "mouth";
+
+console.log(members[props])
+
+//Example II
+
+let myself = {
+    name: "Gideon",
+    complexion: "Chocolate",
+    intelligent:()=>{
+        console.log(`Ah! ${myself.name} is super intelligence ooo`)
+    }
+}
+console.log(myself.intelligent())
+
+let propp = "complexion"
+
+console.log(myself[propp])
+
+let numbers = {
+    1: "one",
+    2: "two",
+    3: "three"
+}
+let getNumber = 2;
+
+let newNum = numbers[getNumber]
+
+console.log(newNum);

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFirstJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <button id="hello">Say Hello</button>
+        <h2 id="msg"></h2>
+
+        <!-- <input value="Counts rabbits" id="input" onclick="countRabbit()" type="button"> -->
+        <input id="button" type="button" value="Button">
+    <script>
+     function handler1(){
+        alert('Are you there?!');
+     }
+
+     function handler2(){
+        alert('Yes. I\'m\ here');
+     }
+
+     button.onclick = ()=> alert('How are you?');
+     button.addEventListener('click', handler1)
+     button.addEventListener('click', handler2);
+    </script>
+</body>
+</html>

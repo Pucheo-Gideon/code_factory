@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  /* background-repeat: no-repeat; */
+  font-family: sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+/* styling form */
+#reg {
+  position: relative;
+  /* top: 15%; */
+  left: 30%;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  transform: translate(-50% -50%);
+  width: 700px;
+  background-color: #ffffff;
+  border: #cccccc solid 1px;
+  border-radius: 5px;
+}
+
+/* head */
+#head {
+
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* labels */
+
+label {
+  display: block;
+  padding-top: 30px;
+}
+
+
+input,
+label,
+select {
+  margin-left: 40px;
+  margin-right: 20px;
+
+  /* padding-right: 20px; */
+  /* margin-left:20px;
+     margin-top: 20px; */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+  width: 80%;
+  padding: 7px;
+}
+
+/* styling for submit button */
+#submit {
+  position: relative;
+  top: 10px;
+  left: 250px;
+  right: 150px;
+  width: 120px;
+  height: 30px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #000000;
+  border: none;
+    font-size: 20px;
+}
+/* submit on hover effect */
+#submit:hover {
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+}

@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+#hello{
+    width: 100px;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
